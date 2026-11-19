@@ -19,8 +19,8 @@ const EXTENSIONS = [
     name: "Test App",
     category: "Developer",
     description: "Test extension used to try the phone extension connection.",
-    version: "",
-    size: "",
-    url: null
+    version: "1.0",
+    size: "6.4 MB",
+    url: "https://github.com/WindowTop/phone-extensions/releases/download/test-app-1.0/test-app-1.0-android.apk"
   }
 ];
