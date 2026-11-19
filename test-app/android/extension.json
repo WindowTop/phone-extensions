@@ -21,8 +21,8 @@
     "images":  {
                    "icon":  "images/icon.png",
                    "pc":  [
-                              "images/desktop.png",
-                              "images/taskbar.png"
+                              "images/desktop.jpg",
+                              "images/taskbar.jpg"
                           ],
                    "phone":  [
                                  "images/phone-1.png",
