@@ -10,8 +10,8 @@ const EXTENSIONS = [
     category: "Productivity",
     description: "Share the clipboard between your phone and your PC.",
     version: "2.4",
-    size: "6.8 MB",
-    url: "https://github.com/WindowTop/Phone-SharedClipboard/releases/download/v2.4/Phone-SharedClipboard-2.4.apk"
+    size: "6.5 MB",
+    url: "https://github.com/WindowTop/phone-extensions/releases/download/shared-clipboard-2.4/shared-clipboard-2.4-android.apk"
   },
   {
     id: "test-app",
