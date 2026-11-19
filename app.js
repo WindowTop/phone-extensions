@@ -40,11 +40,16 @@
       var info = el("div", "info");
       info.appendChild(el("h2", "", e.name));
       info.appendChild(el("p", "desc", e.description));
-      info.appendChild(el("p", "meta", e.category + " \u00b7 " + e.version + " \u00b7 " + e.size));
-      var a = el("a", "btn", "Download");
-      a.href = e.url;
+      var meta = [e.category, e.version ? "v" + e.version : "", e.size].filter(Boolean).join(" \u00b7 ");
+      info.appendChild(el("p", "meta", meta));
       card.appendChild(info);
-      card.appendChild(a);
+      if (e.url) {
+        var a = el("a", "btn", "Download");
+        a.href = e.url;
+        card.appendChild(a);
+      } else {
+        card.appendChild(el("span", "btn disabled", "Coming soon"));
+      }
       listEl.appendChild(card);
     });
     emptyEl.hidden = shown.length !== 0;
