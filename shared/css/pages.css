@@ -1,0 +1,23 @@
+/* Page layout only: no colors, no component looks. */
+
+/* list page */
+.list-title { margin: var(--space-3) 0 var(--space-1); font-size: var(--font-xl); }
+.list-grid { display: grid; gap: var(--space-3); margin-top: var(--space-4); }
+.list-tools { display: grid; gap: var(--space-3); margin-top: var(--space-4); }
+
+/* extension page */
+.ext-header { display: flex; align-items: center; gap: var(--space-4); margin: var(--space-3) 0 var(--space-4); }
+.ext-header h1 { font-size: var(--font-xl); }
+.ext-header .pills { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2); }
+.back { display: inline-block; margin-bottom: var(--space-2); color: var(--text-muted); text-decoration: none; }
+.ext-page > .section { margin-top: var(--space-5); }
+.ext-two { display: grid; grid-template-columns: 1.4fr 1fr; gap: var(--space-5); align-items: start; }
+.ext-page.with-bar { padding-bottom: var(--bar-height); }
+@media (max-width: 640px) {
+  .ext-two { grid-template-columns: 1fr; }
+  .ext-header h1 { font-size: 22px; }
+}
+
+/* not found */
+.not-found { padding: var(--space-6) 0; }
+.not-found p { margin: var(--space-2) 0 var(--space-4); color: var(--text-muted); }

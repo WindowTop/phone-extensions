@@ -1,0 +1,15 @@
+# Development-only files: they must never be pushed to the public repo (see Website/.cursor/rules/phone-extensions-site.mdc).
+.cursor/
+.vscode/
+.idea/
+AGENTS.md
+CLAUDE.md
+tools/
+scripts/
+tests/
+node_modules/
+*.log
+*.tmp
+*.local.*
+Thumbs.db
+.DS_Store

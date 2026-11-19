@@ -1,0 +1,59 @@
+/* Design tokens. Colors, spacing, radii and fonts live only here (rule: phone-extensions-site). */
+:root {
+  --bg: #15171c;
+  --surface: #1f232b;
+  --surface-2: #262b35;
+  --surface-3: #323846;
+  --border: #323846;
+  --border-soft: #2a2f3a;
+
+  --text: #e8eaee;
+  --text-soft: #c3c8d2;
+  --text-muted: #9aa1ad;
+  --text-faint: #8890a0;
+  --text-dim: #707888;
+
+  --accent: #2f6fed;
+  --accent-hover: #4c8dff;
+  --accent-text: #ffffff;
+
+  --ok-bg: #173a2a;
+  --ok-border: #2c6b4a;
+  --ok-text: #7ee0a0;
+
+  --warn-bg: #3a2d12;
+  --warn-border: #7a5a1a;
+  --warn-text: #f2c46d;
+  --warn-strong: #1b1405;
+
+  --tip-bg: #13263f;
+  --tip-border: #2c5a99;
+  --tip-text: #9cc4ff;
+
+  --qr-bg: #ffffff;
+  --qr-fg: #111111;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 14px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --font-s: 13px;
+  --font-m: 15px;
+  --font-l: 18px;
+  --font-xl: 28px;
+
+  --page-width: 960px;
+  --bar-height: 112px;
+
+  --fade-ms: 800ms;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,40 @@
+/* Reset, typography, page wrap, responsive helpers. */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: var(--font-m);
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, p, ol, ul { margin: 0; }
+
+a { color: var(--accent-hover); }
+
+img { display: block; max-width: 100%; }
+
+.page {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-5) var(--space-6);
+}
+
+.lead { color: var(--text-muted); }
+.muted { color: var(--text-faint); font-size: var(--font-s); }
+
+.stack > * + * { margin-top: var(--space-4); }
+
+.row { display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  .page { padding: var(--space-3) var(--space-4) var(--space-5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

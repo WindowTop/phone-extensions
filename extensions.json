@@ -1,0 +1,66 @@
+[
+    {
+        "id":  "shared-clipboard",
+        "name":  "Shared Clipboard",
+        "category":  "Productivity",
+        "description":  "Share the clipboard between your phone and your PC.",
+        "about":  "Copy text on this PC or on your Android phone, get a notification on the other device and click it to use the text. Text only: a notification can briefly show what you copied, such as a password.",
+        "version":  "2.4",
+        "size":  "6.5 MB",
+        "updated":  null,
+        "url":  "https://github.com/WindowTop/phone-extensions/releases/download/shared-clipboard-2.4/shared-clipboard-2.4-android.apk",
+        "minAndroid":  "8.0",
+        "permissions":  [
+                            "BLUETOOTH_CONNECT",
+                            "BLUETOOTH",
+                            "BLUETOOTH_ADMIN",
+                            "FOREGROUND_SERVICE",
+                            "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+                            "POST_NOTIFICATIONS",
+                            "RECEIVE_BOOT_COMPLETED"
+                        ],
+        "images":  {
+                       "icon":  "images/icon.png",
+                       "pc":  [
+                                  "images/desktop.png",
+                                  "images/taskbar.png"
+                              ],
+                       "phone":  [
+                                     "images/phone-1.png",
+                                     "images/phone-2.png"
+                                 ]
+                   }
+    },
+    {
+        "id":  "test-app",
+        "name":  "Test App",
+        "category":  "Developer",
+        "dev":  true,
+        "description":  "Test extension used to try the phone extension connection.",
+        "about":  "Tests syncing a note, a counter and a checklist between this PC and an Android phone. For WindowTop developers only: it works with WindowTop debug builds.",
+        "version":  "1.0",
+        "size":  "6.4 MB",
+        "updated":  null,
+        "url":  "https://github.com/WindowTop/phone-extensions/releases/download/test-app-1.0/test-app-1.0-android.apk",
+        "minAndroid":  "8.0",
+        "permissions":  [
+                            "BLUETOOTH_CONNECT",
+                            "BLUETOOTH",
+                            "BLUETOOTH_ADMIN",
+                            "FOREGROUND_SERVICE",
+                            "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+                            "POST_NOTIFICATIONS"
+                        ],
+        "images":  {
+                       "icon":  "images/icon.png",
+                       "pc":  [
+                                  "images/desktop.png",
+                                  "images/taskbar.png"
+                              ],
+                       "phone":  [
+                                     "images/phone-1.png",
+                                     "images/phone-2.png"
+                                 ]
+                   }
+    }
+]
