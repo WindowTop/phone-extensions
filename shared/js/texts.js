@@ -73,6 +73,9 @@ export const PERMISSION_TEXTS = {
   FOREGROUND_SERVICE: ['Runs in the background', 'Keeps the link alive when the app is closed.'],
   FOREGROUND_SERVICE_CONNECTED_DEVICE: ['Runs in the background', 'Keeps the link alive when the app is closed.'],
   RECEIVE_BOOT_COMPLETED: ['Starts with the phone', 'Reconnects to your PC after the phone restarts.'],
+  VIBRATE: ['Vibration', 'Vibrates the phone while it rings.'],
+  MODIFY_AUDIO_SETTINGS: ['Sound volume', 'Raises the alarm volume while the phone rings, then puts it back.'],
+  USE_FULL_SCREEN_INTENT: ['Alert over the lock screen', 'Shows the Stop screen on top of the lock screen while the phone rings.'],
 };
 
 // Unknown permissions show their raw name.
