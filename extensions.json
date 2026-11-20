@@ -1,5 +1,40 @@
 [
     {
+        "id":  "find-my-phone",
+        "name":  "Find My Phone",
+        "category":  "Utilities",
+        "description":  "Ring your lost Android phone from your PC, even when it is on silent.",
+        "about":  "Click a button or press a hotkey in WindowTop and your phone rings loudly, even when it is on silent. Stop it on the PC or on the phone. It works over Bluetooth, with no cloud and no account, so the phone must be within Bluetooth range of the PC. A phone that is switched off, out of range or in Do Not Disturb with total silence cannot be rung.",
+        "version":  "1.0",
+        "size":  "6.4 MB",
+        "updated":  "2026-11-20",
+        "url":  "https://github.com/WindowTop/phone-extensions/releases/download/find-my-phone-1.0/find-my-phone-1.0-android.apk",
+        "minAndroid":  "8.0",
+        "permissions":  [
+                            "RECEIVE_BOOT_COMPLETED",
+                            "VIBRATE",
+                            "MODIFY_AUDIO_SETTINGS",
+                            "USE_FULL_SCREEN_INTENT",
+                            "BLUETOOTH_CONNECT",
+                            "BLUETOOTH",
+                            "BLUETOOTH_ADMIN",
+                            "FOREGROUND_SERVICE",
+                            "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+                            "POST_NOTIFICATIONS"
+                        ],
+        "images":  {
+                       "icon":  "images/icon.png",
+                       "pc":  [
+                                  "images/desktop.jpg",
+                                  "images/taskbar.jpg"
+                              ],
+                       "phone":  [
+                                     "images/phone-1.png",
+                                     "images/phone-2.png"
+                                 ]
+                   }
+    },
+    {
         "id":  "shared-clipboard",
         "name":  "Shared Clipboard",
         "category":  "Productivity",
